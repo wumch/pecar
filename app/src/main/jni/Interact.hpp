@@ -1,8 +1,15 @@
-//
-// Created by wumch on 15-9-14.
-//
 
-#ifndef PECAR_INTERACT_HPP
-#define PECAR_INTERACT_HPP
+#pragma once
 
-#endif //PECAR_INTERACT_HPP
+#include "predef.hpp"
+#include <boost/noncopyable.hpp>
+
+
+namespace pecar {
+
+class Interact
+{
+
+};
+
+}

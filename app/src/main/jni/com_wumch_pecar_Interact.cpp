@@ -1,7 +1,10 @@
 
 #include "com_wumch_pecar_Interact.h"
+#include "Interact.hpp"
 
+#ifdef __cplusplus
 extern "C" {
+#endif
 
 void Java_com_wumch_pecar_Interact_start
         (JNIEnv* jenv, jclass jcls)
@@ -23,4 +26,6 @@ jint Java_com_wumch_pecar_Interact_setConfig
     return i;
 }
 
-}
+#ifdef __cplusplus
+}       // extern "C"
+#endif

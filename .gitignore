@@ -5,3 +5,17 @@
 .DS_Store
 /build
 /captures
+
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+local.properties
+Thumbs.db
+.classpath
+.project
+
+app/src/main/obj/
+app/src/main/libs/

@@ -1,8 +1,4 @@
-//
-// Created by wumch on 15-9-14.
-//
 
-#ifndef PECAR_PREDEF_HPP
-#define PECAR_PREDEF_HPP
+#pragma once
 
-#endif //PECAR_PREDEF_HPP
+#include "stage/meta.hpp"
