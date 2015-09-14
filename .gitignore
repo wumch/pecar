@@ -7,6 +7,11 @@
 build/
 /*/build/
 /captures
+*.o
+*.a
+*.so
+*.lib
+*.dll
 
 *.apk
 *.ap_
