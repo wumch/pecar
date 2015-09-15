@@ -39,7 +39,7 @@ public class SettingsActivity extends PreferenceActivity {
      */
     @Override
     public boolean onIsMultiPane() {
-        return isXLargeTablet(this);
+        return !isXLargeTablet(this);
     }
 
     /**

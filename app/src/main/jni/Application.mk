@@ -1,14 +1,13 @@
 
 LOCAL_PATH := $(call my-dir)
-
 include $(CLEAR_VARS)
 
 APP_PLATFORM := android-14
-
 APP_STL := gnustl_static
 APP_CFLAGS += -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB
 APP_CPPFLAGS += -std=c++11 -Wall -fexceptions
 
+_BOOST_VERSION := 1.58.0
 # test only
 APP_OPTIM := debug
 
