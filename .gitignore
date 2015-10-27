@@ -8,10 +8,12 @@ build/
 /*/build/
 /captures
 *.o
+*.lo
 *.a
 *.so
 *.lib
 *.dll
+.*
 
 *.apk
 *.ap_
